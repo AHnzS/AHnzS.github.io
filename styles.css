@@ -1,0 +1,121 @@
+div{
+    padding-left: 5px;
+}
+
+.elemento1{
+    border: 1px rgb(green);
+    border-style: dashed;
+
+    background-color: green;
+    filter: opacity(60%);
+
+    width: 650px;
+    height: 120px;
+
+    left: 300px;
+    top: 40px;
+
+    position: relative;
+
+    z-index: 6;
+
+}
+
+.elemento2
+{
+    border: 1px rgb(green);
+    border-style: dashed;
+
+    background-color: green;
+    filter: opacity(60%);
+
+    width: 650px;
+    height: 120px;
+
+    left: 300px;
+    top: 350px;
+
+    position: relative;
+
+    z-index: 1;
+}
+
+.elemento3{
+    border: 1px rgb(red);
+    border-style: dashed;
+
+    background-color: red;
+    filter: opacity(60%);
+
+    width: 500px;
+    height: 500px;
+
+    top: 75px;
+    left: 475px;
+
+    position: absolute;
+
+    z-index: 2;
+}
+
+.elemento4{
+    border: 1px rgb(orange);
+    border-style: dashed;
+
+    background-color: orange;
+    filter: opacity(60%);
+
+    width: 425px;
+    height: 120px;
+
+    left: 515px;
+    bottom: 125px;
+
+    position: relative;
+
+    z-index: 5;
+}
+
+.elemento5{
+    border: 1px rgb(orange);
+    border-style: dashed;
+
+    background-color: orange;
+    filter: opacity(60%);
+
+    width: 425px;
+    height: 100px;
+
+    left: 515px;
+    top: 50px;
+
+    position: relative;
+
+    z-index: 3;
+}
+
+.elemento6{
+    border: 1px rgb(blue);
+    border-style: dashed;
+
+    background-color: blue;
+    filter: opacity(60%);
+
+    width: 200px;
+    height: 385px;
+
+    left: 725px;
+    top: 110px;
+
+    position: absolute;
+
+    z-index: 4;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+    color: white;
+}
+
